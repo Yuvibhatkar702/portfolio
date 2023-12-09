@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+*{
+    margin: 00;
+    padding: 00;
+}
+
+.Main{
+    text-align: center;
+}
+
+.Container{
+    display: flex;
+
+}
+.sideBar{
+    background-color: rgb(48, 45, 45);
+    width: 10vw;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+}  
+
+.sideBar nav{
+    padding: 30px;
+    font-size: 14px;
+}
+
+.sideBar nav li{
+    font-weight: bold;
+    list-style: none;
+    font-size: 15px;
+    padding: 33px 00px;
+   
+}
+
+.sideBar nav li a{
+    text-shadow: 1vb;
+    text-decoration: none;
+    color: white;
+}
+.cont{
+    background-color: rgb(88, 88, 107);
+    width: 90vw;
+
+    
+}
+
+.myInfo{
+    /* background-color: blueviolet; */
+    width: 80vw;
+    height: 42vh;
+    margin: auto;
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 27px;
+}
+
+
+.Part1{
+    margin-left: 77px;
+    font-size: 17px;
+    padding: 41px;
+}
+
+.Hello{
+    font-size: 22px;
+}
+
+.Name{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.Intro{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+   
+}
+
+#you{
+    width: 245px;
+    height: 20px;
+}
+
+.Buttons{
+    padding: 18px;
+    padding-left: 0px;
+
+}
+
+#btn{
+    padding: 10px;
+    border-radius: 32px;
+    background-color: azure;
+    margin: 0px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: wheat;
+    color: white;
+}
+.Part2 img{
+    height: 294px
+}
+
+.contactInfo h1{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.calint_info{
+    margin-left: 32%;
+    margin-top: 2%;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+}
+
+.suggation{
+    font-size: 12px;
+    margin-left: 12px;
+}
+
